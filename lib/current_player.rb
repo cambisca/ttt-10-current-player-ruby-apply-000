@@ -1,5 +1,8 @@
 def current_player(board)
-   turn_count(board) % 2 == 0.even? 
+   if turn_count(board) % 2 == 0.even? 
+     return true 
+    else 
+      return false
 end
 
 def turn_count(board)
