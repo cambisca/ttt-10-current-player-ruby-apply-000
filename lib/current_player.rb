@@ -1,3 +1,6 @@
+def current_player(board)
+end 
+
 def turn_count(board)
   counter = 0
   board.each {|space|
@@ -7,3 +10,4 @@ def turn_count(board)
   }
   counter
 end
+
